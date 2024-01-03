@@ -27,6 +27,15 @@ a{
     text-decoration: none;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0 auto;
+}
+
 header{
     /*Ajuste de tamaño*/
     width: 100%;
