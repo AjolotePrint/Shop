@@ -1,0 +1,76 @@
+/*Variables*/
+:root {
+    --hTop: 0%;
+    --hLeft: 50%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, a, input, textarea, ul, a{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    /*Ajuste de tamaño*/
+    width: 100%;
+    height: 5%;
+
+    /*Ajuste de posicion*/
+    position: absolute;
+    top: var(--hTop);
+    left: var(--hLeft);
+    transform: translate(calc(var(--hLeft)*(-1)));
+
+    background-color: rgb(22, 8, 83);
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    float: right;
+    height: 100%;
+    width: 60%;
+  }
+
+nav ul{
+   list-style: none;
+   overflow: hidden; 
+   height: 100%;
+   width: 100%;
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    height: 100%;
+    width: 25%;
+}
+
+nav ul li a{
+    position: absolute;
+    top: -15%;
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}

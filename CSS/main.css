@@ -1,9 +1,7 @@
 /*Variables*/
 :root {
-    --mTop: 10%;
+    --mTop: 5%;
     --mLeft: 50%;
-    --hTop: 0%;
-    --hLeft: 50%;
 }
 
 *{
@@ -36,23 +34,9 @@ body {
     margin: 0 auto;
 }
 
-header{
-    /*Ajuste de tamaño*/
-    width: 100%;
-    height: 10%;
-
-    /*Ajuste de posicion*/
-    position: absolute;
-    top: var(--hTop);
-    left: var(--hLeft);
-    transform: translate(calc(var(--hLeft)*(-1)));
-
-    background-color: rgb(22, 8, 83);
-}
-
 main{    
     width: 100%;
-    height: 90%;
+    height: 95%;
 
     /*Ajuste de posicion*/
     position: absolute;
