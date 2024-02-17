@@ -1,9 +1,3 @@
-/*Variables*/
-:root {
-    --mTop: 75px;
-    --mLeft: 50%;
-}
-
 *{
     margin: 0%;
     padding: 0%;
@@ -27,6 +21,7 @@ a{
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -36,13 +31,11 @@ body {
 
 main{    
     width: 100%;
-    height: 95%;
+    height: 100%;
 
     /*Ajuste de posicion*/
     position: absolute;
-    top: var(--mTop);
-    left: var(--mLeft);
-    transform: translate(calc(var(--mLeft)*(-1)));
+    top: 75px;
 
     background-image: linear-gradient(#000000, rgb(15, 0, 49),rgb(14, 0, 77));
 }

@@ -1,9 +1,3 @@
-/*Variables*/
-:root {
-    --hTop: 0%;
-    --hLeft: 50%;
-}
-
 *{
     margin: 0%;
     padding: 0%;
@@ -32,9 +26,6 @@ header{
 
     /*Ajuste de posicion*/
     position: absolute;
-    top: var(--hTop);
-    left: var(--hLeft);
-    transform: translate(calc(var(--hLeft)*(-1)));
 
     background-color: rgb(22, 8, 83);
     position: fixed;
