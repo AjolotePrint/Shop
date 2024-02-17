@@ -63,12 +63,13 @@ nav ul li{
 }
 
 nav ul li a{
-    position: absolute;
-    top: 0%;
+    height: 100%;
+    width: 100%;
     display: block; 
-    padding: 20px;
+    padding: 25px;
     color: #fff;
     text-decoration: none;
+    text-align: center;
 }
 
 nav ul li:hover {
