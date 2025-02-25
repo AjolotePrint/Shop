@@ -1,68 +1,42 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-h1, h2, h3, h4, p, a, input, textarea, ul, a{
-
-    margin: 0%;
-    padding: 0%;
-
-}
-
-ul{
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-}
-
 header{
-    /*Ajuste de tamaño*/
-    width: 100%;
+    display: flex;
+    background-color: #E8E8E8;
+}
+
+.Logo a img{
+    display: inline-block;
+    justify-items: center;
     height: 75px;
-
-    /*Ajuste de posicion*/
-    position: absolute;
-
-    background-color: rgb(22, 8, 83);
-    position: fixed;
-    z-index: 100;
+    margin-left: 30px;
 }
 
-nav{
-    float: right;
-    height: 100%;
-    width: 60%;
-  }
-
-nav ul{
-   list-style: none;
-   overflow: hidden; 
-   height: 100%;
-   width: 100%;
-}
-
-nav ul li{
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
-    height: 100%;
-    width: 25%;
-}
-
-nav ul li a{
-    height: 100%;
+.container-nav-menu{
+    display: flex;
     width: 100%;
-    display: block; 
-    padding: 25px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
+    justify-items: right;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
-nav ul li:hover {
-    background: #eca023;
+.nav-menu{
+    margin: 15px;
+    justify-items: center;
+}
+
+.nav-menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-items: right;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+}
+
+.nav-menu ul li a{
+    padding: 5px;
 }
