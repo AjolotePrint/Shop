@@ -9,6 +9,10 @@ header{
     align-items: center;
 }
 
+.title{
+    font-size: 40px;
+}
+
 .Logo{
     display: flex;
     align-items: center;
