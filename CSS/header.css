@@ -3,6 +3,11 @@ header{
     background-color: #E8E8E8;
 }
 
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
 .Logo a img{
     display: inline-block;
     justify-items: center;
@@ -35,8 +40,5 @@ header{
 
 .nav-menu ul li{
     display: inline-block;
-}
-
-.nav-menu ul li a{
-    padding: 5px;
+    margin: 5px;
 }
