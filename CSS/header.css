@@ -46,11 +46,3 @@ header{
     display: inline-block;
     margin: 5px;
 }
-
-@media(max-width:991px){
-
-    .Logo img{
-        height: 25px;
-    }
-
-}
