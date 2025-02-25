@@ -1,6 +1,12 @@
 header{
     display: flex;
     background-color: #00000044;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Logo{
@@ -8,16 +14,15 @@ header{
     align-items: center;
 }
 
-.Logo a img{
+.Logo img{
     display: inline-block;
     justify-items: center;
-    height: 75px;
+    height: 75px;   
     margin-left: 30px;
 }
 
 .container-nav-menu{
     display: flex;
-    width: 100%;
     justify-items: right;
     flex-direction: row-reverse;
     align-items: center;
@@ -32,7 +37,6 @@ header{
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
     justify-items: right;
     flex-direction: row;
     align-items: center;
@@ -41,4 +45,16 @@ header{
 .nav-menu ul li{
     display: inline-block;
     margin: 5px;
+}
+
+@media(max-width:991px){
+
+    .Logo img{
+        height: 25px;
+    }
+
+    header p{
+        font-size: 15px;
+    }
+
 }
